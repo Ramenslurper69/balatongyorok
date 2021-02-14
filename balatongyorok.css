@@ -38,3 +38,15 @@ html {
     width: 450px;
     background-color: #5b9cea;
 }
+
+table {
+    background-color: #b0d1f1;
+    padding: 10px;
+    border-collapse: collapse;
+    /*border: 1px black solid;*/
+}
+
+tr,
+td {
+    border: 1px black solid;
+}
