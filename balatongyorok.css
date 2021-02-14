@@ -26,3 +26,15 @@ html {
     padding-top: 20px;
     padding-right: 30px;
 }
+
+#align-right {
+    float: right;
+    width: 450px;
+    background-color: #5b9cea;
+}
+
+#align-left {
+    float: left;
+    width: 450px;
+    background-color: #5b9cea;
+}
