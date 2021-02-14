@@ -31,22 +31,28 @@ html {
     float: right;
     width: 450px;
     background-color: #5b9cea;
+    padding: 20px;
 }
 
 #align-left {
     float: left;
     width: 450px;
     background-color: #5b9cea;
+    padding: 20px;
 }
 
 table {
     background-color: #b0d1f1;
-    padding: 10px;
     border-collapse: collapse;
-    /*border: 1px black solid;*/
 }
 
-tr,
 td {
     border: 1px black solid;
+    padding: 4px;
+    width: 50%;
+}
+
+tr td:first-child {
+    text-align: center;
+    font-weight: bold;
 }
